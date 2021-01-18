@@ -21,3 +21,5 @@ The possible configurations are:
 - Android Studio with both the Android shared library target and the Android app module (you must set `sdk.dir` in local.properties).
 - IntelliJ IDEA with the Android shared library target but without the Android app module (you must set `sdk.dir` in local.properties).
 - IntelliJ IDEA without any Android target or module (you must set `skip.android` in local.properties).
+
+Finally, this project changes the way the shared framework is included in the iOS project by using a Framework dependency instead of a script in the app build phase. This fixes an XCode bug and allows changing architecture (arm <-> x86) without manually deleting the framework.

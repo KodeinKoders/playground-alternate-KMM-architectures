@@ -1,4 +1,4 @@
-package com.example.separate_projects.library
+package com.example.separate_projects.shared
 
 
 import platform.UIKit.UIDevice

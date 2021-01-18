@@ -1,4 +1,4 @@
-package com.example.separate_projects.library
+package com.example.separate_projects.shared
 
 actual class Platform actual constructor() {
     actual val platform: String = "Android ${android.os.Build.VERSION.SDK_INT}"
