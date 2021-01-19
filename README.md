@@ -1,4 +1,4 @@
-# Alternative KMM project architecture eamples
+# Alternative KMM project architecture examples
 
 Two projects that shows alternate more flexible Kotlin Multiplatform Mobile architectures that allows each developers to use the tools and SDKs they want.
 
